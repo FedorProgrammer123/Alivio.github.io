@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 85px;
+    background-color:#777367;
+}
+#logo{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+header nav a{
+    position: relative;
+    text-decoration: none;
+    left: 300px;
+    top: 5px;
+    color: #292929;
+    font-size: 20px;
+    padding-left: 20px;
+}
+header #Signin{
+    position: relative;
+    text-decoration: none;
+    color: #292929;
+    font-size: 20px;
+    left: 1200px;
+    top: -27px;
+}
+#mobile{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: #fc03f8;
+    left: 750px;
+    transition: 1.5s all ease;
+}
+#mobile #cross{
+    position: relative;
+    left: 150px;
+    top: -350px;
+}
+#mobile ol{
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+header button{
+    position: relative;
+    width: 183px;
+    height: 51px;
+    background-color: #01996D;
+    color: #FFFFFF;
+    left: 1300px;
+    top: -30px;
+    border: 0;
+}
+.secondblock{
+    width: 100%;
+    height: 895px;
+    background: url('../Img/BG.svg');
+}
+.secondblock #beaware{
+    position: relative;
+    color: #01996D;
+    font-size: 65px;
+    font-family: 'Georgia';
+    font-weight: 700;
+    top: 100px;
+    left: 100px;
+}
+.secondblock #everyone{
+    position: relative;
+    color: #484848;
+    font-weight: 400;
+    font-size: 20px;
+    top: 150px;
+    left: 110px;
+}
+.secondblock #findway{
+    position: relative;
+    width: 227px;
+    height: 65px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    top: 200px;
+    left: 110px;
+}
+#howitworks{
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+    left: 110px;
+    top: 100px;
+}
+#unserstandrelease{
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    font-family: 'Georgia';
+    left: 110px;
+    top: 100px;
+}
+#alivioffers{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    left: 900px;
+    top:-40px;
+}
+#first{
+    position: relative;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+    left: 110px;
+}
+#Personalize{
+    position: absolute;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    left: 200px;
+    top: 1430px;
+}
+#Answeraquick{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    left: 110px;
+}
+#notebook{
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+#second{
+    position: relative;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+    left: 600px;
+    top: -620px;
+}
+#writeunderstand{
+    position: absolute;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    left: 700px;
+    top:  1680px;
+}
+#Writedraw{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    left: 600px;
+    top: -600px;
+}
+#book{
+    position: relative;
+    left: 600px;
+    top:-500px;
+}
+#third{
+    position: relative;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+    left: 1300px;
+    top: -1650px;
+}
+#Alivio{
+    position: absolute;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    left: 1420px;
+    top: 1460px;
+}
+#Nowyouareaware{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    left: 1300px;
+    top: -1650px;
+}
+#woman{
+    position: relative;
+    left: 1200px;
+    top: -1600px;
+}
+.thirdblock{
+    width: 100%;
+    height: 922px;
+    background: #245852;
+}
+#letshearabout{
+    position: relative;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #FFFFFF;
+    top: 130px;
+    left: 300px;
+}
+#seehow{
+    position: relative;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+    top: 200px;
+    left: 300px;
+}
+.thirdblock button{
+    position: relative;
+    width: 240px;
+    height: 65px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    top: -200px;
+    left: 300px;
+}
+#video{
+    position: relative;
+    left: 750px;
+    top: -50px;
+}
+#woman2{
+    position: relative;
+    left: 370px;
+}
+#ourproduct{
+    position: relative;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+    left: 1200px;
+    top: -420px;
+}
+#youtellusyourstress{
+    position: relative;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    left: 1200px;
+    top: -400px;
+}
+#everyoneexperiencesit{
+    position: relative;
+    left: 1200px;
+    top: -380px;
+}
+#findyourmay{
+    position: relative;
+    width: 227px;
+    height: 65px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    left: 1200px;
+    top: -350px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 654px;
+    background: #245852;
+}
+#Alivio{
+    position: relative;
+    top: -1750px;
+    left: 1400px;
+}
+ol{
+    position: relative;
+    left: 500px;
+    top: 200px;
+    list-style: none;
+    line-height: 90px;
+}
+ol li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+#playwhite{
+    position: relative;
+    left: 260px;
+    top:  -250px;
+}
+footer img{
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+#menu{
+    display: none;
+    position: relative;
+    top: -30px;
+    left: 500px;
+}
+button:hover,#findyourmay:hover,#findway:hover{
+    background-color: #fc03f8;
+    cursor: pointer;
+    transition: 0.9s all ease;
+}
+@media screen and (width:768px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 210%;
+    }
+    .secondblock{
+        width: 210%;
+    }
+    .thirdblock{
+        width: 250%;
+    }
+    footer{
+        width: 210%;
+    }
+}
+@media screen and (width:390px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 400%;
+    }
+    .secondblock{
+        width: 400%;
+    }
+    .thirdblock{
+        width: 500%;
+    }
+    footer{
+        width: 400%;
+    }
+}
+@media screen and (width:360px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 440%;
+    }
+    .secondblock{
+        width: 440%;
+    }
+    .thirdblock{
+        width: 550%;
+    }
+    footer{
+        width: 440%;
+    }
+}
+@media screen and (width:375px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 440%;
+    }
+    .secondblock{
+        width: 440%;
+    }
+    .thirdblock{
+        width: 550%;
+    }
+    footer{
+        width: 440%;
+    }
+}
+@media screen and (width:414px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 440%;
+    }
+    .secondblock{
+        width: 440%;
+    }
+    .thirdblock{
+        width: 550%;
+    }
+    footer{
+        width: 440%;
+    }
+}
+@media screen and (width:1024px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 170%;
+    }
+    .secondblock{
+        width: 170%;
+    }
+    .thirdblock{
+        width: 200%;
+    }
+    footer{
+        width: 170%;
+    }
+}
+@media screen and (width:820px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 200%;
+    }
+    .secondblock{
+        width: 200%;
+    }
+    .thirdblock{
+        width: 250%;
+    }
+    footer{
+        width: 200%;
+    }
+}
