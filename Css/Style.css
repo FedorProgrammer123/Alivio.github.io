@@ -435,6 +435,30 @@ button:hover,#findyourmay:hover,#findway:hover{
         width: 440%;
     }
 }
+@media screen and (width:320px) {
+    .desktop nav a, #Signin, button{ 
+        display: none;
+    }
+    .mobileversion #menu{
+        display: block;
+    }
+    #mobile{
+        position: relative;
+        left: 500px;
+    }
+    header{
+        width: 440%;
+    }
+    .secondblock{
+        width: 440%;
+    }
+    .thirdblock{
+        width: 550%;
+    }
+    footer{
+        width: 440%;
+    }
+}
 @media screen and (width:375px) {
     .desktop nav a, #Signin, button{ 
         display: none;
